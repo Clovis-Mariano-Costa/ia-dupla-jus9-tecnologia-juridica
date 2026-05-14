@@ -1,28 +1,65 @@
-# Dependências Node
-node_modules/
+# Jus 9 Tecnologia Jurídica — .gitignore padrão obrigatório
 
-# Variáveis de ambiente e segredos
+# Segredos e variáveis locais
 .env
 .env.*
-*.env
+!.env.example
+*.local
+*.secret
+*secret*
+*secreto*
+
+# Dependências e builds
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+.next/
+.nuxt/
+coverage/
 
 # Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+logs/
 
-# Cache e builds
-.cache/
-dist/
-build/
-.wrangler/
-.dev.vars
-
-# Sistema operacional
+# Sistema operacional e editores
 .DS_Store
 Thumbs.db
-
-# Editor
+desktop.ini
 .vscode/
 .idea/
+
+# Arquivos compactados e backups
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bak
+*.backup
+*.old
+*backup*
+
+# Bancos/dumps locais
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# Chaves e certificados
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa*
+
+# Nunca versionar histórico Git dentro de pacotes
+.git/
