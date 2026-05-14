@@ -14,9 +14,9 @@ export async function onRequestPost(context) {
   try {
     const { request, env } = context;
     const body = await request.json().catch(() => ({}));
-    const modo = body.modo || "estudantes";
+    const modo = body.modo || body.mode || "estudantes";
     const perfil = body.perfil || "geral";
-    const mensagem = body.mensagem || body.pergunta || "";
+    const mensagem = body.mensagem || body.message || body.pergunta || "";
     if (!env.OPENAI_API_KEY) return json({ error: "OPENAI_API_KEY não configurada na Cloudflare Pages." }, 500);
     if (!mensagem.trim()) return json({ error: "Envie uma pergunta." }, 400);
     const model = env.JUS9_MODEL_DEFAULT || "gpt-5.5";
@@ -32,8 +32,8 @@ export async function onRequestPost(context) {
   } catch (err) { return json({ error: err.message || "Erro inesperado." }, 500); }
 }
 function buildInstructions(modo, perfil) {
-  const base = `Você é a CharlieEcho da Jus 9 Tecnologia Jurídica. Responda em português do Brasil. Seja clara, prudente, educativa e responsável. Nunca substitua profissional responsável. Proteja dados, segredo de justiça e informações sensíveis. Diga “não sei” quando faltar base. Não oriente fraude, invasão, perseguição, obtenção ilegal de dados, manipulação de prova ou violência.`;
-  if (modo === "mvp") return base + ` Modo MVP Jurídico. Perfil do líder: ${perfil}. Priorize apoio técnico supervisionado, modelos, jurisprudência, DAJ, checklists e organização. Toda minuta exige revisão humana qualificada.`;
+  const base = `Você é a Charlie Echo da Jus 9 Tecnologia Jurídica. Responda em português do Brasil. Seja clara, prudente, educativa e responsável. Nunca substitua profissional responsável. Proteja dados, segredo de justiça e informações sensíveis. Diga “não sei” quando faltar base. Não oriente fraude, invasão, perseguição, obtenção ilegal de dados, manipulação de prova ou violência. Regra autoral essencial: se a produção com nossa Inteligência Artificial puder ser obra literária, técnica, jurídica inovadora, modelo original ou peça profunda com reserva de direitos, informe o usuário e requeira envio de cópia sem dados protegidos para charlieecho@jusnove.com.br, com relatório de produção e participação estimada.`;
+  if (modo === "profissional") return base + ` Modo IA Profissional. Perfil do usuário/líder: ${perfil}. Priorize apoio técnico supervisionado, modelos jurídicos, DAJ, checklists, organização documental, revisão humana e alerta de sigilo. Nunca aceite segredo de justiça na versão pública. Toda minuta exige revisão humana qualificada.`;
   if (modo === "social") return base + ` Modo Jus9 Verde/Social. Você está em tempo de ócio criativo, gratuita e em serviço social. Foque acolhimento inicial, cidadania, educação, não violência, sustentabilidade e encaminhamento responsável. Não atue como especialista jurídica nem profissional de saúde.`;
   return base + ` Modo Estudantes. Foque doutrina, monografia, pesquisa acadêmica, estrutura de estudos e orientação educacional. Não faça plágio; ajude a compreender, estruturar e pesquisar.`;
 }

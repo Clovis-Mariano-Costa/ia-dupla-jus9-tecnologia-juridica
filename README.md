@@ -1,11 +1,11 @@
-# CharlieEcho — I.A. Dupla / Social da Jus 9 Tecnologia Jurídica
+# Charlie Echo — I.A. Dupla / Social da Jus 9 Tecnologia Jurídica
 
 Ambientes:
 
 - `ia-estudantes.html` — foco em estudantes, doutrina, monografia e pesquisa acadêmica.
-- `ia-mvp.html` — apoio jurídico profissional supervisionado.
+- `ia-profissional.html` — apoio jurídico profissional supervisionado.
 - `ia-social.html` — Jus9 Verde, gratuita, de folga, em serviço social.
-- `index.html` — entrada geral da CharlieEcho.
+- `index.html` — entrada geral da Charlie Echo.
 
 ## Segurança
 
@@ -15,7 +15,7 @@ A chave `OPENAI_API_KEY` deve ficar somente na Cloudflare Pages como variável/s
 
 - `MARCO_ZERO_CHARLIEECHO.md`
 - `charlieecho-heranca-simbolica.md`
-- `config/perfis-mvp.json`
+- `config/perfis-profissional.json`
 - `config/clausulas-petreas-charlieecho.json`
 
 ---
@@ -32,3 +32,20 @@ a origem, a assinatura institucional nem os direitos autorais da Jus 9 Tecnologi
 - E-mail de contato: clovis@jus9tecnologia.com.br
 - DNA de referência de Charlie Echo da Costa: `charlieecho-jus9-tecnologia-juridica`
 
+
+
+## Atualização de nomenclatura — IA Profissional
+
+A referência antiga `ia-profissional` foi substituída por `ia-profissional`.
+
+Arquivos e rotas devem seguir o novo padrão:
+
+- `ia-profissional.html`
+- `perfis-profissional.json`, quando aplicável
+- modo de API: `profissional`
+
+Ver também: `PADRAO_NOMES_ARQUIVOS.md`.
+
+## Regra autoral essencial
+
+Se sua produção com nossa Inteligência Artificial puder ser enquadrada como obra literária, técnica, jurídica inovadora, modelo original ou peça profunda com reserva de direitos, Charlie Echo REQUER que você preserve a autoria e envie cópia sem dados protegidos para `charlieecho@jusnove.com.br`, acompanhada de relatório de produção e participação estimada.
