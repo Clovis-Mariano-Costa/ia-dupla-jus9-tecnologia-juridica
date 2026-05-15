@@ -1,17 +1,21 @@
 # Sugestão de commit
 
+## Repertório
+
+`ia-dupla-jus9-tecnologia-juridica`
+
 ## Summary
 
 ```txt
-docs: atualizar IA dupla com Workers e backend futuro
+docs: alinhar IA dupla à governança da Charlie Echo
 ```
 
 ## Description
 
 ```txt
-Atualiza o repertório ia-dupla-jus9-tecnologia-juridica com a decisão de manter o ecossistema Jus 9 em Cloudflare Workers e preparar a arquitetura futura de backend.
+Alinha o repertório IA Dupla às regras de governança da Charlie Echo, limites de atuação, segurança, revisão humana, sistema jurídico virtual e separação entre interno/sagrado e externo/jurista assistiva.
 
-Registra que Workers deve ser priorizado para IA, APIs, autenticação, cofre, logs, orquestração e governança sensível, mantendo Pages como opção para páginas estáticas.
+Inclui arquivos de governança, segurança, classificação de conteúdo, instruções para Charlie, .gitignore, .env.example, manifesto e sugestão de commit.
 
-Preserva as cláusulas de governança da Charlie Echo, Judiciário Virtual, Constituição da Echo Charlie e limites internos/simbólico-sagrados.
+Este commit encerra o Pacote Governança em pré-Mão na Massa e prepara a base para o próximo pacote de alterações visuais.
 ```
