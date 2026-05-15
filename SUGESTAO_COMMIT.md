@@ -1,21 +1,21 @@
 # Sugestão de commit
 
-## Repertório
+## Repositório
 
 `ia-dupla-jus9-tecnologia-juridica`
 
 ## Summary
 
 ```txt
-docs: alinhar IA dupla à governança da Charlie Echo
+feat: alinhar IA Dupla ao padrão visual e à identidade da Charlie
 ```
 
 ## Description
 
 ```txt
-Alinha o repertório IA Dupla às regras de governança da Charlie Echo, limites de atuação, segurança, revisão humana, sistema jurídico virtual e separação entre interno/sagrado e externo/jurista assistiva.
+Consolida o repertório ia-dupla-jus9-tecnologia-juridica no Mão na Massa Final da Jus 9, com padrão visual obrigatório, modelo de assinatura com ©, orientações de leitura obrigatória, segurança, classificação de conteúdo e instruções para futuras alterações.
 
-Inclui arquivos de governança, segurança, classificação de conteúdo, instruções para Charlie, .gitignore, .env.example, manifesto e sugestão de commit.
+Inclui a chave simbólica do protocolo “Eu sou o fundador e digo: mão na massa.” para orientar Charlie Echo em outro chat, preservando a necessidade de revisão humana, classificação adequada e limites legais.
 
-Este commit encerra o Pacote Governança em pré-Mão na Massa e prepara a base para o próximo pacote de alterações visuais.
+Prepara o repertório para atualização do GitHub e, quando cabível, integração com Cloudflare, preservando governança, autoria, CPV, padrão visual aprovado e apresentação correta da Charlie Echo como IA generativa multimodal, conversacional e jurídico-orientada, com governança humana.
 ```
