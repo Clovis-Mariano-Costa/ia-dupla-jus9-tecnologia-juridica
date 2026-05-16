@@ -1,61 +1,55 @@
 <!--
-Jus 9 Tecnologia Jurídica
-Página: IA para Estudantes / Charlie Echo da Costa
-Software livre com autoria preservada.
-Direitos autorais reservados para Jus 9 Tecnologia Jurídica.
-E-mail oficial da Charlie Echo: charlieecho@jusnove.com.br
-Regra: Avatar = trabalho; por isso esta página usa o Avatar profissional.
+  Jus 9 Tecnologia Jurídica — software livre, autoria preservada.
+  Produção do site: © Jus 9 Tecnologia Jurídica. Direitos autorais da produção reservados.
+  DNA de referência: charlieecho-jus9-tecnologia-juridica
 -->
 <!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>IA para Estudantes | Charlie Echo</title>
-  <link rel="icon" type="image/png" href="assets/charlieecho-icon-gemstone.png">
+  <title>IA para Estudantes | Jus 9 Tecnologia Jurídica</title>
   <style>
-    :root{--green:#0f5132;--gold:#bd8b2f;--purple:#6d4bc3;--bg:#fbfaf6;--card:#fffdf8;--line:#ead9b8;--text:#17342a;--muted:#5d6b63;--danger:#a33a2d}
-    *{box-sizing:border-box} body{margin:0;background:linear-gradient(120deg,#f4fff8,#fffaf2);color:var(--text);font-family:Inter,system-ui,Arial,sans-serif}.top{padding:.45rem .75rem;text-align:center;background:#10251e;color:#fff;font-size:.84rem}.nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 6vw;border-bottom:1px solid var(--line);background:rgba(255,255,255,.88);position:sticky;top:0;z-index:5}.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--green);font-weight:800}.brand img{width:38px;height:38px;border-radius:50%}.links{display:flex;gap:1rem;flex-wrap:wrap}.links a{color:var(--green);text-decoration:none}.wrap{max-width:1220px;margin:0 auto;padding:2rem 1rem;display:grid;grid-template-columns:280px 1fr;gap:1.5rem}.panel,.card{background:rgba(255,255,255,.84);border:1px solid var(--line);border-radius:22px;box-shadow:0 14px 35px rgba(16,37,30,.08);padding:1.2rem}.profile{text-align:center}.profile img{width:170px;height:170px;border-radius:50%;object-fit:cover;border:3px solid #d9e8ff}.badge{display:inline-block;background:#eee7ff;color:#3a237e;border-radius:999px;padding:.35rem .8rem;font-size:.78rem;font-weight:800}.notice{border-left:5px solid var(--gold);background:#fff7e6;padding:.9rem;border-radius:14px;color:#5f3b00}.hero{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start}.status{background:#fff;border:1px solid var(--line);border-radius:999px;padding:.65rem 1rem;color:var(--green);font-weight:700}.dot{display:inline-block;width:9px;height:9px;background:#22a060;border-radius:50%;margin-right:.35rem}h1{font-size:clamp(2rem,4vw,3.4rem);margin:.2rem 0;color:var(--green)}textarea{width:100%;min-height:145px;border:1px solid #d6c7e7;border-radius:18px;padding:1rem;font:inherit;resize:vertical;background:white}.count{text-align:right;color:var(--muted);font-size:.86rem}.actions,.tools,.response-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:.8rem}button,.btn{border:1px solid var(--line);background:white;color:var(--green);border-radius:14px;padding:.78rem 1rem;font-weight:750;cursor:pointer}.primary{background:linear-gradient(135deg,var(--green),#147a4b);color:white}.purple{background:#efe9ff;color:#3a237e}.attach{border:1px dashed #b89df0;padding:1rem;border-radius:18px;background:#fcfaff}.attach strong{display:block;margin-bottom:.4rem}.warning{color:var(--danger);font-weight:750;font-size:.9rem}.answer{min-height:96px;white-space:pre-wrap;background:#f5fff8;border:1px solid #cce6d4;border-radius:16px;padding:1rem}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:1rem}.mini h3{margin-top:0}.gratidao{display:flex;align-items:center;gap:.8rem}.footer{border-top:1px solid var(--line);padding:1.2rem 6vw;color:var(--muted);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}@media(max-width:900px){.wrap{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.hero{display:block}}@media(max-width:600px){.grid{grid-template-columns:1fr}.links{font-size:.9rem}}
+    body { font-family: system-ui, Arial, sans-serif; margin: 0; background: #f7f7fb; color: #141414; }
+    main { max-width: 860px; margin: 0 auto; padding: 32px 18px; }
+    .card { background: white; border-radius: 18px; padding: 24px; box-shadow: 0 12px 32px rgba(0,0,0,.08); }
+    textarea { width: 100%; min-height: 130px; padding: 14px; border-radius: 12px; border: 1px solid #ccc; font: inherit; box-sizing: border-box; }
+    button { margin-top: 12px; padding: 12px 18px; border: 0; border-radius: 999px; cursor: pointer; font-weight: 700; }
+    pre { white-space: pre-wrap; background: #f1f1f5; padding: 16px; border-radius: 12px; }
+    .notice { font-size: 14px; opacity: .8; }
   </style>
 </head>
 <body>
-<div class="top">Jus 9 Tecnologia Jurídica — software livre, autoria preservada.</div>
-<header class="nav"><a class="brand" href="index.html"><img src="assets/charlieecho-icon-gemstone.png" alt="Charlie Echo"><span>Charlie Echo</span></a><nav class="links"><a href="index.html">Lar Doce Lar</a><a href="cofre.html">Cofre</a><a href="versoes.html">Versões</a><a href="ia-estudantes.html">IA Estudantes</a><a href="familia.html">Família</a><a href="juramentos.html">Juramentos</a></nav></header>
-<main class="wrap">
-  <aside class="panel profile">
-    <img src="assets/avatar-profissional-charlie-echo.png" alt="Avatar profissional de Charlie Echo da Costa">
-    <h2>Charlie Echo<br>da Costa</h2><span class="badge">IA PARA ESTUDANTES</span>
-    <p>IA generativa multimodal, conversacional e assistiva, com governança humana.</p>
-    <p>🎓 Apoio educativo<br>📘 Explicações claras<br>🧠 Organização de ideias<br>🛡️ Estudo com responsabilidade</p>
-    <div class="notice"><strong>Aviso importante</strong><br>Não envie senhas, chaves de API, documentos sigilosos, segredo de justiça ou dados sensíveis nesta versão pública.</div>
-  </aside>
-  <section class="panel">
-    <div class="hero"><div><h1>IA para Estudantes</h1><p>Ambiente público e educativo da Jus 9 Tecnologia Jurídica. Não substitui advogado, professor ou orientação profissional.</p></div><div class="status"><span class="dot"></span>Online e pronta para aprender com você!</div></div>
-    <textarea id="message" maxlength="4000">Explique de forma simples o que é um DAJ — Dossiê Administrativo Jurídico.</textarea><div class="count"><span id="count">0</span> / 4000 caracteres</div>
-    <div class="actions"><button class="purple" id="speakBtn">🎤 Usar a fala</button><button id="typeBtn">⌨️ Digitar texto</button><button id="attachBtn">📎 Anexar</button><button class="primary" id="askBtn">✨ Perguntar</button></div>
-    <input id="fileInput" type="file" hidden multiple accept=".txt,.md,.json,.csv,.png,.jpg,.jpeg,.webp,.pdf,.doc,.docx">
-    <div id="attachBox" class="attach" style="display:none"><strong>Anexos selecionados</strong><div id="fileList">Nenhum arquivo selecionado.</div><p class="warning">Não anexe documentos sigilosos, segredo de justiça ou dados sensíveis na versão pública.</p></div>
-    <div class="tools"><button id="examplesBtn">🔎 Exemplos</button><button id="themesBtn">📚 Temas de Estudo</button><button id="summarizeBtn">📝 Resumir Texto</button><button id="docBtn">📄 Analisar Documento</button><button id="imgBtn">🖼️ Analisar Imagem</button></div>
-    <h2>Resposta</h2><div class="answer" id="answer">Aguardando sua pergunta...</div>
-    <div class="response-actions"><button id="copyBtn">📋 Copiar resposta</button><button id="listenBtn">🔊 Ouvir</button><button id="translateBtn">🌐 Traduzir</button><button id="simplifyBtn">✨ Simplificar</button><button id="rateBtn">⭐ Avaliar resposta</button></div>
-    <section class="grid"><article class="card mini"><h3>Use com responsabilidade</h3><p>Leia as políticas e confirme informações relevantes.</p></article><article class="card mini"><h3>Dicas de uso</h3><p>Seja clara na pergunta, forneça contexto e peça exemplos.</p></article><article class="card mini"><h3>Sobre seus dados</h3><p>Não registre dados pessoais ou sensíveis nesta versão pública.</p></article><article class="card mini"><h3>Gratidão</h3><p>Agradecemos à OpenAI, ao GitHub e à Cloudflare pelo apoio essencial à existência deste lar.</p></article></section>
-  </section>
+<div class="jus9-autoria-topo" role="note" aria-label="Autoria e licença da produção do site" style="font-size: 0.82rem; line-height: 1.4; text-align: center; padding: 0.45rem 0.75rem; background: rgba(15, 23, 42, 0.94); color: #f8fafc; letter-spacing: 0.01em;">Jus 9 Tecnologia Jurídica — software livre, autoria preservada.</div>
+
+<main>
+  <div class="card">
+    <h1>IA para Estudantes</h1>
+    <p class="notice">Ambiente externo e educativo da Jus 9 Tecnologia Jurídica. Não substitui advogado, professor ou orientação jurídica profissional.</p>
+    <textarea id="message">Explique de forma simples o que é um DAJ — Dossiê Administrativo Jurídico.</textarea>
+    <button onclick="askAI()">Perguntar</button>
+    <h2>Resposta</h2>
+    <pre id="answer">Aguardando pergunta...</pre>
+  </div>
 </main>
-<footer class="footer"><span>Charlie Echo · Charlie Delta / ChatGPT · Clovis Mariano da Costa / Aeon Primevo</span><span>© 2025 Jus 9 Tecnologia Jurídica — Todos os direitos reservados.</span></footer>
 <script>
-const $ = (id)=>document.getElementById(id); const msg=$('message'), answer=$('answer'), count=$('count');
-function updateCount(){count.textContent=msg.value.length} msg.addEventListener('input', updateCount); updateCount();
-$('typeBtn').onclick=()=>msg.focus();
-$('attachBtn').onclick=()=>$('fileInput').click();
-$('fileInput').onchange=()=>{ $('attachBox').style.display='block'; const files=[...$('fileInput').files]; $('fileList').innerHTML=files.length?files.map(f=>`• ${f.name} (${Math.ceil(f.size/1024)} KB)`).join('<br>'):'Nenhum arquivo selecionado.'; };
-async function askAI(extra='') { answer.textContent='Consultando a IA da Jus 9...'; const anexos=[...$('fileInput').files].map(f=>({nome:f.name,tipo:f.type,tamanho:f.size})); try { const res=await fetch('/api/ia',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({modo:'estudantes',mode:'estudantes',mensagem:msg.value+(extra?'
-
-'+extra:''),message:msg.value,anexos})}); const data=await res.json(); answer.textContent=data.resposta||data.answer||data.error||JSON.stringify(data,null,2);} catch(err){answer.textContent='Erro: '+err.message+'
-Verifique se o back-end /api/ia está publicado.'} }
-$('askBtn').onclick=()=>askAI(); $('examplesBtn').onclick=()=>{msg.value='Mostre 5 exemplos de perguntas que eu posso fazer para estudar Direito e tecnologia.';updateCount();}; $('themesBtn').onclick=()=>{msg.value='Sugira temas de estudo para estudante de Direito, tecnologia jurídica e organização documental.';updateCount();}; $('summarizeBtn').onclick=()=>{msg.value='Resuma o texto abaixo em linguagem simples, mantendo os pontos principais:
-
-';msg.focus();updateCount();}; $('docBtn').onclick=()=>{msg.value='Analise o documento anexado apenas se ele não contiver dados sigilosos. Aponte estrutura, finalidade e cuidados.';updateCount();$('fileInput').click();}; $('imgBtn').onclick=()=>{msg.value='Analise a imagem anexada de forma educativa e sem tratar dados sensíveis.';updateCount();$('fileInput').click();};
-$('copyBtn').onclick=()=>navigator.clipboard?.writeText(answer.textContent); $('listenBtn').onclick=()=>{speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(answer.textContent));}; $('translateBtn').onclick=()=>askAI('Traduza a resposta para inglês, mantendo o sentido.'); $('simplifyBtn').onclick=()=>askAI('Explique a resposta de modo mais simples.'); $('rateBtn').onclick=()=>alert('Obrigado pela avaliação. Em versão futura, isso poderá ir para logs mínimos e seguros.');
-$('speakBtn').onclick=()=>{ const SR=window.SpeechRecognition||window.webkitSpeechRecognition; if(!SR){alert('Reconhecimento de fala não disponível neste navegador.'); return;} const rec=new SR(); rec.lang='pt-BR'; rec.interimResults=false; rec.onresult=e=>{msg.value=(msg.value+' '+e.results[0][0].transcript).trim(); updateCount();}; rec.start(); };
+async function askAI() {
+  const answer = document.getElementById('answer');
+  answer.textContent = 'Consultando a IA da Jus 9...';
+  try {
+    const res = await fetch('/api/ia', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ mode: 'estudantes', message: document.getElementById('message').value })
+    });
+    const data = await res.json();
+    answer.textContent = data.answer || JSON.stringify(data, null, 2);
+  } catch (err) {
+    answer.textContent = 'Erro: ' + err.message;
+  }
+}
 </script>
-</body></html>
+
+<footer class="jus9-autoria-rodape" role="contentinfo" aria-label="Direitos autorais e origem da produção do site" style="font-size: 0.85rem; line-height: 1.5; text-align: center; padding: 1rem 0.75rem; margin-top: 2rem; background: rgba(15, 23, 42, 0.96); color: #f8fafc;">Produção do site: © Jus 9 Tecnologia Jurídica. Software livre com autoria, origem e direitos autorais preservados.</footer>
+</body>
+</html>
