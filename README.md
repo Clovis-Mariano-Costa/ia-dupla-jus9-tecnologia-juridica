@@ -6,6 +6,7 @@ Ambientes:
 - `ia-mvp.html` — apoio jurídico profissional supervisionado.
 - `ia-social.html` — Jus9 Verde, gratuita, de folga, em serviço social.
 - `index.html` — entrada geral da CharlieEcho.
+**** -==
 
 ## Segurança
 
